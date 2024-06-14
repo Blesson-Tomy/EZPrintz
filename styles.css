@@ -1,0 +1,14 @@
+.formbody{
+    width: 40%;
+    min-height: auto;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: pink;
+}
+
+body{
+    background-image: url(Images/banner-new.png);
+    background-size: cover;
+
+}
