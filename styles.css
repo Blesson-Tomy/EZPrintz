@@ -1,14 +1,25 @@
+body{
+    color: white;
+    background-image: linear-gradient(to bottom, #141e30, #243b55);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .formbody{
     width: 40%;
     min-height: auto;
     margin: auto;
     padding: 20px;
     border: 2px solid #000;
-    background-color: pink;
+    background-image: linear-gradient(to right, #d3cce3, #e9e4f0); 
+    background-repeat: no-repeat;
 }
 
-body{
-    background-image: url(Images/banner-new.png);
-    background-size: cover;
-
+@media (max-width: 768px){
+    .formbody{
+        width: 80%;
+        min-height: auto;
+    }
+    
 }

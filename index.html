@@ -11,41 +11,20 @@
     <header>
         <h1>QuikPrint</h1>
     </header>
-
-    <!--
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="upload.html">Upload</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    <div class="formbody">
-        <form action="upload.php" method="post" enctype="multipart/form-data">
-            <input type="file" name="file" id="file">
-            <button type="submit" name="submit">Upload</button>
-        </form>
-
-    </div>
-    -->
-    <form class="formbody">
+    <form class="formbody" action="https://sheetdb.io/api/v1/aa8i5lmbtrp6n" method="post" id="sheetdb-form-submit">
+      <h5>Personal Particulars</h5>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Full Name:</label>
-            <input type="text" class="form-control" id="text" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div>
+            <input type="text" name="data[Name]" class="form-control" id="text">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Branch</label>
+          <input type="">
+          <input type="email" class="form-control"  id="exampleInputEmail1">
+        </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <input type="email" class="form-control" name="data[Gmail]" id="exampleInputEmail1">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
