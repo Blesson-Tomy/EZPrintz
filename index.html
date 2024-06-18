@@ -18,7 +18,7 @@
             <input type="text" name="data[Name]" class="form-control" id="text">
         </div>
         <label for="exampleDataList" class="form-label">Branch</label>
-        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="">
+        <input class="form-control" list="datalistOptions" name="data[Branch] id="exampleDataList" placeholder="">
         <datalist id="datalistOptions">
           <option value="Faculty Members">
           <option value="Artificial Intelligence and Data Science">
@@ -35,7 +35,7 @@
         </datalist>
 
         <label for="exampleDataList" class="form-label">Semester</label>
-        <input class="form-control" list="datalistOption" id="exampleDataList" placeholder="">
+        <input class="form-control" list="datalistOption" name="data[Semester] id="exampleDataList" placeholder="">
         <datalist id="datalistOption">
           <option value="S1">
             <option value="S2">
@@ -49,27 +49,27 @@
 
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" name="data[Gmail]" id="exampleInputEmail1">
+          <input type="email" class="form-control" name="data[Email]" >
         </div>
 
         <h5>Print Settings</h5>
 
         <label for="exampleDataList" class="form-label">Colour</label>
-        <input class="form-control" list="ColourOptions" id="exampleDataList" placeholder="">
+        <input class="form-control" list="ColourOptions" name="data[Colour]" id="exampleDataList" placeholder="">
         <datalist id="ColourOptions">
           <option value="Black and White">
           <option value="Colour Print">
         </datalist>
 
         <label for="exampleDataList" class="form-label">Printing Side</label>
-        <input class="form-control" list="PrintingSide" id="exampleDataList" placeholder="">
+        <input class="form-control" list="PrintingSide" name="data[Printing Side]" id="exampleDataList" placeholder="">
         <datalist id="PrintingSide">
           <option value="Print on both sides">
           <option value="Print on 1 side only">
         </datalist>
 
-        <label for="exampleDataList" class="form-label">Flip Settings</label>
-        <input class="form-control" list="Edge" id="exampleDataList" placeholder="">
+        <label for="exampleDataList" class="form-label">Flip Edge</label>
+        <input class="form-control" list="Edge" name="data[Flip Edge]" id="exampleDataList" placeholder="">
         <datalist id="Edge">
           <option value="Flip on Long Edge">
           <option value="Flip on Short Edge">
@@ -78,12 +78,12 @@
 
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Number of Copies:</label>
-          <input type="number" name="data[Copies]" class="form-control" id="Number">
+          <input type="number" name="data[Number of Copies]" class="form-control" id="Number">
         </div>
 
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">File</label>
-            <input type="file" name="data[File]" class="form-control" id="File">
+          <label for="exampleInputEmail1" class="form-label">Accessible Link to File</label>
+            <input type="text" name="data[Link]"class="form-control" id="text">
           </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
