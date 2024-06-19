@@ -12,9 +12,9 @@ subform.addEventListener("submit", (e) => {
     .then((response) => response.json())
     .then((html) => 
         {
-            if (confirm("Form submitted successfully! Do you want to go to the index page?")) {
+            confirm("Form submitted successfully! Do you want to go to the index page?")
                 window.location.href = "index.html";
-            }
+        
     }); 
 });
 

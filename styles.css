@@ -1,7 +1,12 @@
 body{
     color: white;
+    background-color: #000 !important;
+    /*
     background-image: linear-gradient(to bottom, #141e30, #243b55);
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    */
+   
+    
     width: 100%;
     min-height: 100vh;
 }
@@ -20,14 +25,23 @@ body{
     margin: auto;
     padding: 20px;
     border: 2px solid #000;
-    background-image: linear-gradient(to right, #d3cce3, #e9e4f0); 
+    background-image: linear-gradient(to right, #94c0c0c6, #46d1d1); 
     background-repeat: no-repeat;
+    border-radius: 20px;
 }
 
 @media (max-width: 768px){
     .formbody{
-        width: 80%;
+        width: 100%;
         min-height: auto;
+        
     }
     
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
