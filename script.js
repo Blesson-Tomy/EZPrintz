@@ -10,11 +10,12 @@ subform.addEventListener("submit", (e) => {
         ),
     })
     .then((response) => response.json())
-    .then((html) => 
-        {
-            confirm("Form submitted successfully! Do you want to go to the index page?")
-                window.location.href = "index.html";
+    .then((_html) => {
         
-    }); 
+        if (confirm("Form submitted successfully! Do you want to go to the index page?")) {
+            
+            window.location.href = "index.html";
+        }
+    });
 });
 
