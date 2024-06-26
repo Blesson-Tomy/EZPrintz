@@ -1,1 +1,1 @@
-# QuikPrint
+# EZPrintz
