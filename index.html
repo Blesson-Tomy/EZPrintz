@@ -9,16 +9,17 @@
   </head>
 <body>
     <header>
-        <h1 class="title">QuikPrint</h1>
+        <h1 class="title">EZPrintz</h1>
     </header>
+
     <form class="formbody" action="https://sheetdb.io/api/v1/aa8i5lmbtrp6n" method="post" id="sheetdb-form-submit">
       <h5>Personal Particulars</h5>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Full Name:</label>
-            <input type="text" name="data[Name]" class="form-control" id="text">
+        <div class="mb-3 inp" id="mb-3">
+            <!--<label for="exampleInputEmail1" class="form-label">Full Name:</label> -->
+            <input type="text" name="data[Name]" class="form-control" id="text" placeholder="Full Name:">
         </div>
-        <label for="exampleDataList" class="form-label">Branch</label>
-        <input class="form-control" list="datalistOptions" name="data[Branch] id="exampleDataList" placeholder="">
+        <!-- <label for="exampleDataList" class="form-label">Branch</label> -->
+        <input class="form-control inp" list="datalistOptions" name="data[Branch]" id="exampleDataList" placeholder="Branch">
         <datalist id="datalistOptions">
           <option value="Faculty Members">
           <option value="Artificial Intelligence and Data Science">
@@ -34,8 +35,8 @@
           <option value="Computer Applications">      
         </datalist>
 
-        <label for="exampleDataList" class="form-label">Semester</label>
-        <input class="form-control" list="datalistOption" name="data[Semester] id="exampleDataList" placeholder="">
+        <!-- <label for="exampleDataList" class="form-label">Semester</label> -->
+        <input class="form-control inp" list="datalistOption" name="data[Semester]" id="exampleDataList" placeholder="Semester">
         <datalist id="datalistOption">
           <option value="S1">
             <option value="S2">
@@ -47,43 +48,43 @@
             <option value="S8">
         </datalist>
 
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" name="data[Email]" >
+        <div class="mb-3 inp">
+          <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+          <input type="email" class="form-control" name="data[Email]" placeholder="Email Address" >
         </div>
 
         <h5>Print Settings</h5>
 
-        <label for="exampleDataList" class="form-label">Colour</label>
-        <input class="form-control" list="ColourOptions" name="data[Colour]" id="exampleDataList" placeholder="">
+        <!-- <label for="exampleDataList" class="form-label">Colour</label> -->
+        <input class="form-control inp" list="ColourOptions" name="data[Colour]" id="exampleDataList" placeholder="Colour">
         <datalist id="ColourOptions">
           <option value="Black and White">
           <option value="Colour Print">
         </datalist>
 
-        <label for="exampleDataList" class="form-label">Printing Side</label>
-        <input class="form-control" list="PrintingSide" name="data[Printing Side]" id="exampleDataList" placeholder="">
+        <!-- <label for="exampleDataList" class="form-label">Printing Side</label> -->
+        <input class="form-control inp" list="PrintingSide" name="data[Printing Side]" id="exampleDataList" placeholder="Printing Side">
         <datalist id="PrintingSide">
           <option value="Print on both sides">
           <option value="Print on 1 side only">
         </datalist>
 
-        <label for="exampleDataList" class="form-label">Flip Edge</label>
-        <input class="form-control" list="Edge" name="data[Flip Edge]" id="exampleDataList" placeholder="">
+        <!-- <label for="exampleDataList" class="form-label">Flip Edge</label> -->
+        <input class="form-control inp" list="Edge" name="data[Flip Edge]" id="exampleDataList" placeholder="Flip Edge">
         <datalist id="Edge">
           <option value="Flip on Long Edge">
           <option value="Flip on Short Edge">
           <option value="Not Sure">
         </datalist>
 
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Number of Copies:</label>
-          <input type="number" name="data[Number of Copies]" class="form-control" id="Number">
+        <div class="mb-3 inp">
+          <!-- <label for="exampleInputEmail1" class="form-label">Number of Copies:</label> -->
+          <input type="number" name="data[Number of Copies]" class="form-control" id="Number" placeholder="Number of copies">
         </div>
 
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Accessible Link to File</label>
-          <input type="text" name="data[Link]"class="form-control" id="text">
+        <div class="mb-3 inp">
+          <!-- <label for="exampleInputEmail1" class="form-label">Accessible Link to File</label> -->
+          <input type="text" name="data[Link]"class="form-control" id="text" placeholder="Assessible Link to File">
           </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
