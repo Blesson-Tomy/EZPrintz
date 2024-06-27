@@ -24,3 +24,6 @@ Possible Issues:
 4) Google Analytics
 5) Google Sheets API
 
+
+<img src="Images/logo.png">
+

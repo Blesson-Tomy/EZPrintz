@@ -22,6 +22,15 @@ img{
     margin-top: 10px;
 }
 
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
 .formbody{
     width: 40%;
     min-height: auto;
