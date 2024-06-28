@@ -25,8 +25,11 @@ Possible Issues:
 5) Google Sheets API
 
 Check it out!
+<br>
 [Hosted Link](https://blesson-tomy.github.io/EZPrintz/)
+<br>
 [GitHub Link](https://github.com/Blesson-Tomy/EZPrintz)
+<br>
 [Google Sheet Link](https://docs.google.com/spreadsheets/d/1GgLk66kl3mJ4DtH-YiEgbnjcX6bbKOc4yYjiHkzgOz8/edit?usp=sharing)
 
 
