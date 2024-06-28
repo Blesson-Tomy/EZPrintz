@@ -9,13 +9,16 @@ Therefore, I would like to implement an online form that would collect the requi
 Possible Issues:
 
 1. It is possible that students upload confusing instructions
-    Solution: Provide options for the students to make it as easy and efficient as possible.
+
+Solution: Provide options for the students to make it as easy and efficient as possible.
 
 2. Students might not come to collect their order
-    Solution: Further orders from their register number will be banned.
+
+Solution: Further orders from their register number will be banned.
 
 3. Students might not know how to use the form
-    Solution: Students are free to go down to the printing shop and print themselves.
+
+Solution: Students are free to go down to the printing shop and print themselves.
 
 ### Technologies Used
 1) HTML
