@@ -24,6 +24,11 @@ Possible Issues:
 4) Google Analytics
 5) Google Sheets API
 
+Check it out!
+[Hosted Link](https://blesson-tomy.github.io/EZPrintz/)
+[GitHub Link](https://github.com/Blesson-Tomy/EZPrintz)
+[Google Sheet Link](https://docs.google.com/spreadsheets/d/1GgLk66kl3mJ4DtH-YiEgbnjcX6bbKOc4yYjiHkzgOz8/edit?usp=sharing)
+
 
 <img src="Images/logo.png">
 
