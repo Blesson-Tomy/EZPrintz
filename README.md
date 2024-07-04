@@ -24,7 +24,7 @@ Solution: Students are free to go down to the printing shop and print themselves
 1) HTML
 2) CSS
 3) Javascript
-4) Google Analytics
+4) Google Analytics (Track the number of page visits)
 5) Google Sheets API
 
 Check it out!
