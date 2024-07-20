@@ -3,7 +3,7 @@
 ## Problem Description
 Our college has a central printing shop for the more than 2000 students in the campus. We can only access the printing shop during break and lunch times, leading to huge queues that tend to leave students hungry and frustrated since most of us are unable to eat at that time. 
 
-## My Suggested Solution
+## Suggested Solution
 Therefore, I would like to implement an online form that would collect the required details from the students such that the staff will be able to print the requested documents during lesson time such that students will only need to collect and pay at the shop. This reduces the queue and waiting time by more than 70%. 
 
 Possible Issues:
@@ -31,10 +31,9 @@ Check it out!
 <br>
 [Hosted Link](https://blesson-tomy.github.io/EZPrintz/)
 <br>
-[GitHub Link](https://github.com/Blesson-Tomy/EZPrintz)
-<br>
 [Google Sheet Link](https://docs.google.com/spreadsheets/d/1GgLk66kl3mJ4DtH-YiEgbnjcX6bbKOc4yYjiHkzgOz8/edit?usp=sharing)
-
+<br>
+[GitHub Repository Link](https://github.com/Blesson-Tomy/EZPrintz)
 
 <img src="Images/logo.png">
 
